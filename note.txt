@@ -1,0 +1,27 @@
+Ecommerce Project
+
+User Pages:
+Authentication: 
+Login page  done
+Signup page done
+User profile:
+Dashboard:-
+User profile display:[User Profile edit form ] backend remaining
+Order history page 
+
+Navigation pages:
+all products display
+Product detail
+
+Cart :
+Cart page:[Address edit, proceed to pay,  ]
+
+Payment Page:
+Payment input field
+
+Admin Page
+Add/edit Product from
+See all orders list [change status]
+See all users [delete users]
+
+
