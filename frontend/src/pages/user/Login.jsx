@@ -9,7 +9,7 @@ const Login = () => {
   const navigate = useNavigate()
   // auth= variable, setauth= function
   const [auth,setAuth] = useAuth()
-  const [loading,setLoading] = useState(false)
+  // const [loading,setLoading] = useState(false)
   const handelSubmit = async (e) => {
     e.preventDefault()
     console.log(user);

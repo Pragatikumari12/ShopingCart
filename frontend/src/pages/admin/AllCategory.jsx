@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const AllCategory = () => {
   return (
@@ -11,9 +12,9 @@ const AllCategory = () => {
                 smartphone
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Top&Jeans</a></li>
-                <li><a class="dropdown-item" href="#">Saree</a></li>
-                <li><a class="dropdown-item" href="#">Kurtti</a></li>
+                <li><Link class="dropdown-item">Top&Jeans</Link></li>
+                <li><Link class="dropdown-item">Saree</Link></li>
+                <li><Link class="dropdown-item">Kurtti</Link></li>
               </ul>
             </div>
             <div class="dropdown-center">
@@ -21,9 +22,9 @@ const AllCategory = () => {
                 television
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Top&Jeans</a></li>
-                <li><a class="dropdown-item" href="#">Saree</a></li>
-                <li><a class="dropdown-item" href="#">Kurtti</a></li>
+                <li><Link class="dropdown-item">Top&Jeans</Link></li>
+                <li><Link class="dropdown-item">Saree</Link></li>
+                <li><Link class="dropdown-item">Kurtti</Link></li>
               </ul>
             </div>
             <div class="dropdown-center">
@@ -31,9 +32,9 @@ const AllCategory = () => {
                 headphones
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Top&Jeans</a></li>
-                <li><a class="dropdown-item" href="#">Saree</a></li>
-                <li><a class="dropdown-item" href="#">Kurtti</a></li>
+                <li><Link class="dropdown-item">Top&Jeans</Link></li>
+                <li><Link class="dropdown-item">Saree</Link></li>
+                <li><Link class="dropdown-item">Kurtti</Link></li>
               </ul>
             </div>
             <div class="dropdown-center">
@@ -41,9 +42,9 @@ const AllCategory = () => {
                 tablet
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Top&Jeans</a></li>
-                <li><a class="dropdown-item" href="#">Saree</a></li>
-                <li><a class="dropdown-item" href="#">Kurtti</a></li>
+                <li><Link class="dropdown-item">Top&Jeans</Link></li>
+                <li><Link class="dropdown-item">Saree</Link></li>
+                <li><Link class="dropdown-item">Kurtti</Link></li>
               </ul>
             </div>
             <div class="dropdown-center">
@@ -51,9 +52,9 @@ const AllCategory = () => {
               camera
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Top&Jeans</a></li>
-                <li><a class="dropdown-item" href="#">Saree</a></li>
-                <li><a class="dropdown-item" href="#">Kurtti</a></li>
+                <li><Link class="dropdown-item">Top&Jeans</Link></li>
+                <li><Link class="dropdown-item">Saree</Link></li>
+                <li><Link class="dropdown-item">Kurtti</Link></li>
               </ul>
             </div>
           </div>

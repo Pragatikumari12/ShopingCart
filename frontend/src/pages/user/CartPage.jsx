@@ -75,7 +75,7 @@ const CartPage = () => {
                     <div className="col-lg-2 d-flex justify-content-center">
                       <div>
                         <div>
-                          <img style={{ maxWidth: 100, maxHeight: 100 }} src={item?.productimage} />
+                          <img style={{ maxWidth: 100, maxHeight: 100 }} src={item?.productimage}  alt='img'/>
                         </div>
                         <div className='d-flex justify-content-center'>
                           <div class="btn-group mt-3" role="group" aria-label="Basic example">

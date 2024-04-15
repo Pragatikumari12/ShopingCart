@@ -12,7 +12,7 @@ const ProductDetail = () => {
   }
   useEffect(() => {
     fetchproductDetail()
-  }, [])
+  }, [fetchproductDetail])
   console.log(productDetail);
   return (
     <div>
@@ -23,7 +23,7 @@ const ProductDetail = () => {
             <div className="col-lg-6 d-flex justify-content-center">
               <div>
                 <div>
-                  <img src={productDetail?.productimage} height={300} />
+                  <img src={productDetail?.productimage} height={300} alt='img' />
                 </div>
                 <div className='d-flex justify-content-center'>
                   <div class="btn-group mt-3" role="group" aria-label="Basic example">
