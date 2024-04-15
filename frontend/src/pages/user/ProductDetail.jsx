@@ -1,15 +1,17 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 const ProductDetail = () => {
   const { id } = useParams()
   const [productDetail, setProductDetail] = useState({})
-  const fetchproductDetail = async () => {
-    const { data } = await axios.get(`http://localhost:5000/showproduct/${id}`)
-    setProductDetail(data)
-    
-  }
+  const fetchproductDetail = useCallback(
+    async () => {
+      const { data } = await axios.get(`http://localhost:5000/showproduct/${id}`)
+      setProductDetail(data)
+    },
+    []
+  )
   useEffect(() => {
     fetchproductDetail()
   }, [fetchproductDetail])
