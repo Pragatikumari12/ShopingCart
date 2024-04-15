@@ -21,7 +21,7 @@ const ProductCard = (props) => {
             {props.data?.description.substring(0, 30)}...
           </p>
           {/* use id to defferenciate productdetail */}
-          <Link className="btn btn-primary rounded-3 shadow me-5" to="/productdetail/:id">Details</Link>
+          <Link className="btn btn-primary rounded-3 shadow me-5" to={`/productdetail/${props.data?._id}`}>Details</Link>
           <button className="btn btn-primary rounded-3 shadow" onClick={() =>{
           if(cart.some(i=>i._id===props?.data?._id)){
             toast.error('item already in cart')

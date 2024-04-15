@@ -5,7 +5,8 @@ const app = express()
 const dotenv = require ('dotenv').config()
 
 // mongoose connection after express
-mongoose.connect("mongodb+srv://pk02082001:Abc1234@todolist.cazndug.mongodb.net/ecommerce_revision?retryWrites=true&w=majority")
+
+mongoose.connect(process.env.URL)
 .then(()=>console.log("Connected"))
 .catch(err=>console.log("Error while connecting",err))
 
