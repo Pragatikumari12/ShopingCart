@@ -5,6 +5,7 @@ const AddAddress = () => {
     <div>
       <div className="row justify-content-center">
         <div className="col-lg-6">
+          
           <h1 className='text-center'>Address</h1>
           <div className="card round-5 border-0 shadow">
             <div className="card-body">
