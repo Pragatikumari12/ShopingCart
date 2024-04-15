@@ -10,7 +10,7 @@ const ProductDetail = () => {
       const { data } = await axios.get(`http://localhost:5000/showproduct/${id}`)
       setProductDetail(data)
     },
-    []
+    [id]
   )
   useEffect(() => {
     fetchproductDetail()
